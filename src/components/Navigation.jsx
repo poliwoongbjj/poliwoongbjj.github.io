@@ -49,11 +49,8 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-lg">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex justify-between items-center py-4">
-          {/* Empty div for spacing */}
-          <div></div>
-
-          {/* Desktop Navigation - Centered */}
+        <div className="flex justify-center items-center py-4 relative">
+          {/* Desktop Navigation - Truly Centered */}
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <button
@@ -70,10 +67,10 @@ const Navigation = () => {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button - Positioned absolutely */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-gray-700 hover:text-blue-600 transition-colors"
+            className="md:hidden absolute right-0 p-2 text-gray-700 hover:text-blue-600 transition-colors"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
