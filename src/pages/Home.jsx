@@ -1,27 +1,27 @@
-import React from "react";
+import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Experience from "../components/Experience";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <>
-      <Hero />
-      <div className="bg-white p-8">
-        <h2 className="text-2xl font-bold text-center">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl mx-auto mt-8">
-          <div className="bg-gray-100 p-4 rounded-lg">
-            <h3>Project 1</h3>
-            <p>Description 1</p>
-          </div>
-          <div className="bg-gray-100 p-4 rounded-lg">
-            <h3>Project 2</h3>
-            <p>Description 2</p>
-          </div>
-          <div className="bg-gray-100 p-4 rounded-lg">
-            <h3>Project 3</h3>
-            <p>Description 3</p>
-          </div>
-        </div>
-      </div>
+      <Navigation />
+      <main>
+        <section id="home">
+          <Hero />
+        </section>
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Contact />
+      </main>
+      <Footer />
     </>
   );
 };
