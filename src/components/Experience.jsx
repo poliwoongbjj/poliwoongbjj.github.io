@@ -52,11 +52,11 @@ const Experience = () => {
     },
     {
       id: 3,
-      degree: "Bachelor of Science in Biotechnology",
+      degree: "Master of Science in Computer Science",
       school: "National University of Life and Environmental Sciences of Ukraine",
       location: "Kyiv, Ukraine",
       period: "2018-2022",
-      description: "Comprehensive science education with strong analytical and mathematical foundation"
+      description: "Comprehensive training in algorithms, data structures, and databases"
     }
   ];
 
