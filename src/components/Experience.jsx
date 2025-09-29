@@ -39,7 +39,7 @@ const Experience = () => {
       degree: "Java Spring Backend Development Certification",
       school: "Habsida",
       location: "Incheon, South Korea",
-      period: "",
+      period: "2025",
       description: "Comprehensive certification program focusing on Java Spring framework and backend development"
     },
     {
@@ -47,15 +47,15 @@ const Experience = () => {
       degree: "Full Stack Development Certification",
       school: "CodeOp",
       location: "Barcelona, Spain",
-      period: "",
+      period: "2024",
       description: "Intensive full-stack development program covering modern web technologies and practices"
     },
     {
       id: 3,
-      degree: "Bachelor of Science in Chemistry & Biology, Minor in Mathematics",
-      school: "Southern Oregon University",
-      location: "Ashland, OR",
-      period: "Sept 2010 - June 2014",
+      degree: "Bachelor of Science in Biotechnology",
+      school: "National University of Life and Environmental Sciences of Ukraine",
+      location: "Kyiv, Ukraine",
+      period: "2018-2022",
       description: "Comprehensive science education with strong analytical and mathematical foundation"
     }
   ];
