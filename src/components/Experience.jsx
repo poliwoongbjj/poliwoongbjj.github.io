@@ -47,7 +47,7 @@ const Experience = () => {
       degree: "Full Stack Development Certification",
       school: "CodeOp",
       location: "Barcelona, Spain",
-      period: "",
+      period: "2024",
       description: "Intensive full-stack development program covering modern web technologies and practices"
     },
     {
